@@ -33,8 +33,8 @@ const autoScroll = (page) => {
     await page.waitForNavigation();
 
     // 登录
-    await page.type("#username", "220191746");
-    await page.type("#password", "Wsz123456789");
+    await page.type("#username", "xxxxx");
+    await page.type("#password", "xxxxx");
     word = await page.$eval("#xsfw", ele => ele.innerText);
     console.log(word)
     await page.click("#xsfw");
